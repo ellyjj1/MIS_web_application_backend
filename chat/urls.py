@@ -10,5 +10,5 @@ router.register( r'message', MessageViewSet, basename='message')
 urlpatterns = router.urls
 urlpatterns += [
     path('sum_numbers/', sumNumbersView, name='sum_numbers'),
-    path('register/', register, name='register'),
+    #path('register/', register, name='register'),
 ]
